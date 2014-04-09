@@ -100,8 +100,8 @@ BOOL ChashdialogDlg::OnInitDialog()
 	SetIcon(m_hIcon, FALSE);		// Set small icon
 
 	// TODO: Add extra initialization here
-    GetDlgItem(IDC_EDIT1)->SetWindowTextW(L"text");
-    GetDlgItem(IDC_EDIT2)->SetWindowTextW(L"sha1 hash value");
+    GetDlgItem(IDC_EDIT1)->SetWindowTextW(L"Ô­ÎÄ");
+    GetDlgItem(IDC_EDIT2)->SetWindowTextW(L"¹þÏ£Öµ");
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
 
