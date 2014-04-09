@@ -101,7 +101,7 @@ BOOL ChashdialogDlg::OnInitDialog()
 
 	// TODO: Add extra initialization here
     GetDlgItem(IDC_EDIT1)->SetWindowTextW(L"原文");
-    GetDlgItem(IDC_EDIT2)->SetWindowTextW(L"哈希值");
+    GetDlgItem(IDC_EDIT2)->SetWindowTextW(L"sha1哈希值");
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
 
